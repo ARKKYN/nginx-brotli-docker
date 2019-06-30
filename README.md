@@ -1,5 +1,5 @@
 # NGINX-BROTLI-DOCKER
-  This docker image is based on Alpine Linux and Official Nginx image, This image contains Nginx Webserver that provides static and dynamic brotli compression. Brotli is built by Google. 
+  This docker image is based on Alpine Linux and Official Nginx image, This image contains Nginx Webserver that provides static and dynamic brotli compression, has gzip as fallback with default nginx.conf. Brotli is built by Google. 
   Since Google nginx brotli is no longer maintained I use [eustas' fork](https://github.com/eustas/ngx_brotli).
 
 ## What is its purpose ?
