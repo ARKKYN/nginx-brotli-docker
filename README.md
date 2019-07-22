@@ -9,14 +9,20 @@
 
 
 ## Usage 
-
+  To pull image run `docker pull devmakk/docker-nginx-brotli`.
+  
+  To use tha latest image always use tag `latest`
+  
   Please visit official [Nginx](https://hub.docker.com/_/nginx/) hub repository for usage.
 
 #### NGINX config
-  This repo contains an nginx.conf file for serving files under `/var/www` folder. For 
+  This repo contains a default `nginx.conf` file in this repo, for serving files under `/var/www` folder. For 
   a custom configuration please visit http://nginxconfig.io for generating configuration based on your needs
 
-
+## Docker Information
+  The Docker image name is `devmakk/docker-nginx-brotli`.
+  The official docker repo is [HERE](https://hub.docker.com/r/devmakk/docker-nginx-brotli)
+  
 ## Tags available
  `1.17.0-alphine-3.10` , `latest`  
  The prefix version denotes `Nginx version` suffix with name `alpine` denotes the `alpine version`
